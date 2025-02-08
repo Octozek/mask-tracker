@@ -1,0 +1,46 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .card {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    color: white;
+  }
+  
+  .card-title {
+    font-size: 18px;
+  }
+  
+  .mask-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  input[type="checkbox"] {
+    transform: scale(1.3);
+  }
+
+  .form-check-input {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .form-check-input:hover {
+    transform: scale(1.3);
+  }
+  
+  .form-check-input.clicked {
+    transform: scale(1.7);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  
